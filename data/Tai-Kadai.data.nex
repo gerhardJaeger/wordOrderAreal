@@ -1,0 +1,16 @@
+#Nexus
+
+Begin Data;
+Dimensions ntax=6 nchar=28;
+Format Datatype=standard gap=? missing=- symbols="abcd";
+Matrix
+
+TK.KAM_TAI.NUNG              aaabaabaabaababaabbaabccdabb
+TK.KAM_TAI.LAO               aaaaaabaaaaabaaaabaaabaababb
+TK.KAM_TAI.KHORAT_THAI       aaaaaabaaaaabaaaabaaabaababb
+TK.KAM_TAI.WANGMO_BOUYEI     -aaba-b------aba-bba-bc-d-b-
+TK.KAM_TAI.SOUTHERN_DONG     aa-ba--a-ba---ba------c-----
+TK.HLAI.BAODING_HLAI         aa-ba-ba-ba-b-ba-b----c-d-b-
+
+;
+END;

@@ -1,0 +1,16 @@
+#Nexus
+
+Begin Data;
+Dimensions ntax=6 nchar=28;
+Format Datatype=standard gap=? missing=- symbols="abcd";
+Matrix
+
+Tac.TACANAN.ARAONA                   bbb-babdd-dcdd-dcd-dcd---cdb
+Tac.TACANAN.CAVINENA_1               b-bb-a--dd-c------d-c--c----
+Pan.PANOAN.SHIPIBO                   -------dddd-dddd-ddd-dd-d-d-
+Pan.PANOAN.KASHIBO_BAJO_AGUAYTIA     bbbab-bddcd-ddcd-dcd-db-b-d-
+Tac.TACANAN.TACANA                   -------dd-d-dd-d-d-d-d----d-
+Pan.PANOAN.AMAHUACA                  bbb-b--dd-d--d-d---d--------
+
+;
+END;

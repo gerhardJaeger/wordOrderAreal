@@ -1,0 +1,15 @@
+#Nexus
+
+Begin Data;
+Dimensions ntax=5 nchar=28;
+Format Datatype=standard gap=? missing=- symbols="abcd";
+Matrix
+
+Sko.KRISA.ISAKA               -aaabab------aababababbabcdb
+Sko.WESTERN_SKOU.SKOU         babab-bcdcd-dbab-bcd-db-b-d-
+Sko.SERRA_HILLS.POKO_RAWO     -aba--b------ba--bc--d--b---
+Sko.WARUPU.SUMO               -aaabab------aababababbabcdb
+Sko.WESTERN_SKOU.LEITRE       -abab-b------bab-bcd-db-b-d-
+
+;
+END;

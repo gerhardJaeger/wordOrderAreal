@@ -1,0 +1,17 @@
+#Nexus
+
+Begin Data;
+Dimensions ntax=7 nchar=28;
+Format Datatype=standard gap=? missing=- symbols="abcd";
+Matrix
+
+Tor.WAPEI_PALEI.OLO_YEBIL      aa-aaaba-aaab-aaab----aababb
+Tor.MARIENBERG.KAMASAU         babab-bcdcd-dbab-bcd-db-b-d-
+Tor.KOMBIO_ARAPESH.KOMBIO      aaaaaabaaaaabaaaabaaabaababb
+Tor.WAPEI_PALEI.WALMAN         ba-aaabc-cccd-aaab----aababb
+Tor.WAPEI_PALEI.AU             aa-aa-ba-aa-b-aa-b----a-b-b-
+Tor.KOMBIO_ARAPESH.BUKIYIP     cd-dc-db-ba-b-dc-d----c-d-b-
+Tor.WAPEI_PALEI.URAT           -aaaaab------aaaabaaabaababb
+
+;
+END;

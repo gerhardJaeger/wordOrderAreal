@@ -1,0 +1,20 @@
+#Nexus
+
+Begin Data;
+Dimensions ntax=10 nchar=28;
+Format Datatype=standard gap=? missing=- symbols="abcd";
+Matrix
+
+Alt.TURKIC.KARAKALPAK          dddddddddddddddddddddddddddd
+Alt.TURKIC.KHALAJ_IRAN         dddddcdddddcddddcdddcddcdcdb
+Alt.TURKIC.KARACHAY_BALKAR     dddddddddddddddddddddddddddd
+Alt.TURKIC.CHUVASH             dddddddddddddddddddddddddddd
+Alt.TURKIC.TURKISH             dddddddddddddddddddddddddddd
+Alt.TURKIC.KAZAN_TATAR         dddddddddddddddddddddddddddd
+Alt.TURKIC.BASHKIR             dddddddddddddddddddddddddddd
+Alt.TURKIC.TURKMEN             dddddddddddddddddddddddddddd
+Alt.TURKIC.SAKHA               ddd-ddddd-dddd-ddd-ddd---ddd
+Alt.TURKIC.TUVAN               ddd-d-ddd-d-dd-d-d-d-d----d-
+
+;
+END;

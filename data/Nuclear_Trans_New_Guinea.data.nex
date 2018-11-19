@@ -1,0 +1,41 @@
+#Nexus
+
+Begin Data;
+Dimensions ntax=31 nchar=28;
+Format Datatype=standard gap=? missing=- symbols="abcd";
+Matrix
+
+TNG.EASTERN_HIGHLANDS.YAGARIA       dddddddddddddddddddddddddddd
+TNG.AWJU_DUMUT.KOMBAI               babab-bcdcd-dbab-bcd-db-b-d-
+TNG.ENGAN.KEWA_EAST                 dddcd-dddcd-ddcd-dcd-db-b-d-
+TNG.MADANG.TAUYA                    bbbab-bddcd-ddcd-dcd-db-b-d-
+TNG.MEK.EIPOMEK                     d-dcddd-dcddd-----cdddbbbddd
+TNG.MADANG.SUROI                    babababcdcdcdbababcdcdbabcdb
+TNG.OK.MIAN                         babab-bcdcd-dbab-bcd-db-b-d-
+TNG.MADANG.KOBON                    babab-bcdcd-dbab-bcd-db-b-d-
+TNG.MEK.UNA                         bbbabbbddcddddcdddcdddbbbddd
+TNG.MADANG.AMELE                    babababcdcdcdbababcdcdbabcdb
+TNG.MEK.YALE_KOSAREK                bababbbcdcdddbabbbcdddbbbddd
+TNG.AWJU_DUMUT.WAMBON               bbb-b-bdd-d-dd-d-d-d-d----d-
+TNG.MADANG.WASKIA                   babab-bcdcd-dbab-bcd-db-b-d-
+TNG.EASTERN_HIGHLANDS.AWA           -dddddd------ddddddddddddddd
+TNG.FINISTERRE_HUON.NABAK           babab-bcdcd-dbab-bcd-db-b-d-
+TNG.EASTERN_HIGHLANDS.FORE          dddcd-dddcd-ddcd-dcd-db-b-d-
+TNG.BINANDEREAN.SUENA               babab-bcdcd-dbab-bcd-db-b-d-
+TNG.CHIMBU.GOLIN                    babab-bcdcd-dbab-bcd-db-b-d-
+TNG.OK.TELEFOL                      b-bab-b-dcd-d-----cd-db-b-d-
+TNG.MADANG.KALAM                    babab-bcdcd-dbab-bcd-db-b-d-
+TNG.MADANG.WANUMA                   babab-bcdcd-dbab-bcd-db-b-d-
+TNG.BINANDEREAN.BINANDERE           babab-bcdcd-dbab-bcd-db-b-d-
+Oks.OKSAPMIN.OKSAPMIN               --------d-d-d------d-d----d-
+TNG.FINISTERRE_HUON.NANKINA         b-bab-b-dcd-d-----cd-db-b-d-
+TNG.MADANG.ANGAUA                   ba--b-bc--d-d--b-b--------d-
+TNG.EASTERN_HIGHLANDS.N_TAIRORA     -------------dcd-dcd-db-b-d-
+TNG.DANI.UPPER_PYRAMID_DANI         -------cd-dcdb-bab-dcd---cdb
+TNG.ENGAN.KYAKA_ENGA                ba-ab-bc-cd-d-ab-b----b-b-d-
+TNG.CHIMBU.KUMAN                    bb-ab-bd-cd-d-cd-d----b-b-d-
+TNG.AWJU_DUMUT.KOROWAI              -dd-d-d------d-d-d-d-d----d-
+TNG.MADANG.IKUNDUN                  -abab-b------bab-bcd-db-b-d-
+
+;
+END;

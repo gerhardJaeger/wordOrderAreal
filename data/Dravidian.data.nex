@@ -1,0 +1,17 @@
+#Nexus
+
+Begin Data;
+Dimensions ntax=7 nchar=28;
+Format Datatype=standard gap=? missing=- symbols="abcd";
+Matrix
+
+Dra.SOUTH_CENTRAL_DRAVIDIAN.TELUGU          dddddddddddddddddddddddddddd
+Dra.SOUTH_CENTRAL_DRAVIDIAN.KUVI            dddddddddddddddddddddddddddd
+Dra.SOUTHERN_DRAVIDIAN.KANNADA              ddddd-ddddd-dddd-ddd-dd-d-d-
+Dra.SOUTHERN_DRAVIDIAN.TAMIL                dddddddddddddddddddddddddddd
+Dra.SOUTHERN_DRAVIDIAN.MALAYALAM            -dddddd------ddddddddddddddd
+Dra.SOUTH_CENTRAL_DRAVIDIAN.DORLI_GONDI     -dddddd------ddddddddddddddd
+Dra.SOUTHERN_DRAVIDIAN.TULU                 ddddd-ddddd-dddd-ddd-dd-d-d-
+
+;
+END;

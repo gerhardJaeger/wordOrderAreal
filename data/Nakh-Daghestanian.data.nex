@@ -1,0 +1,22 @@
+#Nexus
+
+Begin Data;
+Dimensions ntax=12 nchar=28;
+Format Datatype=standard gap=? missing=- symbols="abcd";
+Matrix
+
+NDa.AVAR_ANDIC_TSEZIC.HUNZIB           dddddddddddddddddddddddddddd
+NDa.LEZGIC.KUBA_LEZGI                  dddddddddddddddddddddddddddd
+NDa.NAKH.AKKIN_CHECHEN                 dddddddddddddddddddddddddddd
+NDa.NAKH.BATS                          dddddddddddddddddddddddddddd
+NDa.AVAR_ANDIC_TSEZIC.AVAR             ddddd-ddddd-dddd-ddd-dd-d-d-
+NDa.LEZGIC.ARCHI_2                     ddddd-ddddd-dddd-ddd-dd-d-d-
+NDa.NAKH.INGUSH                        dddd-ddddd-dddd-ddd-dd-dd--d
+NDa.AVAR_ANDIC_TSEZIC.SAGADIN_TSEZ     ddddd-ddddd-dddd-ddd-dd-d-d-
+NDa.LAK_DARGWA.SANZHI_DARGI            d-ddddd-ddddd-----dddddddddd
+NDa.AVAR_ANDIC_TSEZIC.GODOBERI         -dddd-d------ddd-ddd-dd-d-d-
+NDa.LEZGIC.RUTUL                       ddddd-ddddd-dddd-ddd-dd-d-d-
+NDa.LEZGIC.KRYZ                        -dddd-d------ddd-ddd-dd-d-d-
+
+;
+END;

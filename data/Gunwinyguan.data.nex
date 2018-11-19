@@ -1,0 +1,15 @@
+#Nexus
+
+Begin Data;
+Dimensions ntax=5 nchar=28;
+Format Datatype=standard gap=? missing=- symbols="abcd";
+Matrix
+
+Aus.GUNWINYGIC.GUNWINGGU_GUN_DJEIHMI     -------------------d-d----d-
+Aus.NGALAKAN.NGALAKAN                    -b---a----------c-----------
+Aus.NUNGGUBUYU.NUNGGUBUYU                ----------------c-----------
+Aus.GUNWINYGIC.GUNBALANG_WARLANG         cd-dccdb-baab-dccd----ccdabb
+Aus.NGANDI.NGANDI                        -b-ab-b-------cd-d----b-b-d-
+
+;
+END;

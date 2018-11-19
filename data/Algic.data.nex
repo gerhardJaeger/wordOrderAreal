@@ -1,0 +1,15 @@
+#Nexus
+
+Begin Data;
+Dimensions ntax=5 nchar=28;
+Format Datatype=standard gap=? missing=- symbols="abcd";
+Matrix
+
+Alg.ALGONQUIAN.MENOMINEE     -------------dd-c-d-c--c----
+Alg.YUROK.YUROK              -ddd--d------dd--dd--d--d---
+Alg.ALGONQUIAN.BLACKFOOT     -dddc--------ddc--dc--c-----
+Alg.ALGONQUIAN.OTTAWA        -------------ddcccdccccccaaa
+Alg.WIYOT.WIYOT              -bb---b------d---d---d------
+
+;
+END;

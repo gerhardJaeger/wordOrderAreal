@@ -1,0 +1,30 @@
+#Nexus
+
+Begin Data;
+Dimensions ntax=20 nchar=28;
+Format Datatype=standard gap=? missing=- symbols="abcd";
+Matrix
+
+AuA.BAHNARIC.SEDANG             aaabaabaabaababaabbaabccdabb
+AuA.KHASIAN.KHASI_2             ababaabbabaabcdccdbaabccdabb
+AuA.MUNDA.KORKU                 dddddddddddddddddddddddddddd
+AuA.KHMER.KHMER_2               aaaaaabaaaaabaaaabaaabaababb
+AuA.ASLIAN.SEMELAI              aaabaa-aabaa-abaa-baa-cc-a--
+AuA.BAHNARIC.SRE                aaabaabaabaababaabbaabccdabb
+AuA.MUNDA.SANTALI               ddddd-ddddd-dddd-ddd-dd-d-d-
+AuA.MUNDA.MUNDARI_2             dddddddddddddddddddddddddddd
+AuA.PALAUNG_KHMUIC.RUMAI        aaa-aabaa-aaba-aab-aab---abb
+AuA.BAHNARIC.CHRAU              aaabaabaabaababaabbaabccdabb
+AuA.VIET_MUONG.VIETNAMESE_3     aaabaabaabaababaabbaabccdabb
+AuA.MONIC.MON_2                 aaaaa-baaaa-baaa-baa-ba-b-b-
+AuA.NICOBARESE.CAR              cdcdc-cbaba-acdc-cba-ac-c-a-
+AuA.PALAUNG_KHMUIC.KHMU_2       aaaaa-baaaa-baaa-baa-ba-b-b-
+AuA.BAHNARIC.BRAO               aaaaa-baaaa-baaa-baa-ba-b-b-
+AuA.MUNDA.REMO                  ddddd-ddddd-dddd-ddd-dd-d-d-
+AuA.ASLIAN.TEMIAR               aa--aaba--aab--aab-------abb
+AuA.NICOBARESE.NANCAWRI         aba-a-aba-a-ac-c-c-a-a----a-
+AuA.MUNDA.KHARIA                -------d-dd-d-dd-d----d-d-d-
+AuA.PALAUNG_KHMUIC.MLABRI       aab-a-bab-a-bb-a-b-c-d----b-
+
+;
+END;

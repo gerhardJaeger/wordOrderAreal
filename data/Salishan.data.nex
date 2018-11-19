@@ -1,0 +1,15 @@
+#Nexus
+
+Begin Data;
+Dimensions ntax=5 nchar=28;
+Format Datatype=standard gap=? missing=- symbols="abcd";
+Matrix
+
+Sal.CENTRAL_SALISH.SQUAMISH      cdcdc-cbaba-acdc-cba-ac-c-a-
+Sal.BELLA_COOLA.BELLA_COOLA      ccc-cccaa-aaaa-aaa-aaa---aaa
+Sal.CENTRAL_SALISH.COWICHAN      cdcdc-cbaba-acdc-cba-ac-c-a-
+Sal.INTERIOR_SALISH.THOMPSON     c-ddc-c-bba-a-----dc-cc-c-a-
+Sal.INTERIOR_SALISH.LILLOOET     cdc-c-cba-a-ac-c-c-a-a----a-
+
+;
+END;

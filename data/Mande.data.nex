@@ -1,0 +1,21 @@
+#Nexus
+
+Begin Data;
+Dimensions ntax=11 nchar=28;
+Format Datatype=standard gap=? missing=- symbols="abcd";
+Matrix
+
+Man.WESTERN_MANDE.BARALAKAKAN       babab-bcdcd-dbab-bcd-db-b-d-
+Man.WESTERN_MANDE.MALINKE           babababcdcdcdbababcdcdbabcdb
+Man.WESTERN_MANDE.XAASONGAXANGO     bbbab-bddcd-ddcd-dcd-db-b-d-
+Man.WESTERN_MANDE.VAI               babab-bcdcd-dbab-bcd-db-b-d-
+Man.WESTERN_MANDE.BAMBARA           b-bab-b-dcd-d-----cd-db-b-d-
+Man.WESTERN_MANDE.MENDE             babab-bcdcd-dbab-bcd-db-b-d-
+Man.WESTERN_MANDE.MANDINKA          bbbab-bddcd-ddcd-dcd-db-b-d-
+Man.EASTERN_MANDE.BOKO              b-babab-dcdcd-----cdcdbabcdb
+Man.EASTERN_MANDE.BUSA_NIGERIA      b-babab-dcdcd-----cdcdbabcdb
+Man.EASTERN_MANDE.WAN_2             b-bab-b-dcd-d-----cd-db-b-d-
+Man.EASTERN_MANDE.MANN              b-bab-b-dcd-d-----cd-db-b-d-
+
+;
+END;

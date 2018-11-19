@@ -1,0 +1,29 @@
+#Nexus
+
+Begin Data;
+Dimensions ntax=19 nchar=28;
+Format Datatype=standard gap=? missing=- symbols="abcd";
+Matrix
+
+CSu.BONGO_BAGIRMI.KARA           aaaaaabaaaaabaaaabaaabaababb
+CSu.BONGO_BAGIRMI.MBAY           -aaaaab------aaaabaaabaababb
+CSu.BONGO_BAGIRMI.NGAMBAY        aaaaaabaaaaabaaaabaaabaababb
+CSu.MORU_MAADI.AGI               baaa-abccc-cdaa-aba-ab-ab--b
+CSu.MORU_MAADI.MAADI             ba-a-abc-c-cd-a-ab-----ab--b
+CSu.MORU_MAADI.LOGO              baba-abcdc-cdba-abc-cd-ab--b
+CSu.MORU_MAADI.LUGBARA           baba-abcdc-cdba-abc-cd-ab--b
+CSu.LENDU.LENDU                  dddd--dddd--ddd--dd--d--d---
+CSu.BONGO_BAGIRMI.BAGIRMI        aaaaaabaaaaabaaaabaaabaababb
+CSu.BONGO_BAGIRMI.YULU           aaaaaabaaaaabaaaabaaabaababb
+CSu.BONGO_BAGIRMI.BAKA_SUDAN     ccccccdaaaaabaaaabaaabaababb
+CSu.LENDU.NGITI                  dddd--dddd--ddd--dd--d--d---
+CSu.BONGO_BAGIRMI.MODO           aaa-aabaa-aaba-aab-aab---abb
+CSu.BONGO_BAGIRMI.FURU           -------------aaaabaaabaababb
+CSu.BONGO_BAGIRMI.KENGA          -------------aaaabaaabaababb
+CSu.MANGBUTU_EFE.BALESE          -a-a--b-------a--b------b---
+CSu.MANGBETU.MANGBETU            ---aa-b---------------a-b-b-
+CSu.BONGO_BAGIRMI.BONGO          --------a-a-b------a-b----b-
+CSu.MANGBUTU_EFE.MAMVU           -a-aa-b-------aa-b----a-b-b-
+
+;
+END;

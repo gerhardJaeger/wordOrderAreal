@@ -1,0 +1,15 @@
+#Nexus
+
+Begin Data;
+Dimensions ntax=5 nchar=28;
+Format Datatype=standard gap=? missing=- symbols="abcd";
+Matrix
+
+Car.CARIBAN.MAKUSHI         bbbbb--dddd--ddd--dd--d-----
+Car.CARIBAN.MAQUIRITARI     bbbbbabddddcddddcdddcddcdcdb
+Car.CARIBAN.HIXKARYANA      b-bbbaa-dddcc-----ddccdcccca
+Car.CARIBAN.KALINA          ddddd-ddddd-dddd-ddd-dd-d-d-
+Car.CARIBAN.APALAI          b-b-b---d-d--------d--------
+
+;
+END;

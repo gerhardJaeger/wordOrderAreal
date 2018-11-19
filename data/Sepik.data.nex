@@ -1,0 +1,16 @@
+#Nexus
+
+Begin Data;
+Dimensions ntax=6 nchar=28;
+Format Datatype=standard gap=? missing=- symbols="abcd";
+Matrix
+
+Sep.SEPIK_HILL.KAPRIMAN     dddddddddddddddddddddddddddd
+Sep.YELLOW_RIVER.NAMIA      babab-bcdcd-dbab-bcd-db-b-d-
+Sep.MIDDLE_SEPIK.KWOMA      dddddddddddddddddddddddddddd
+Sep.RAM.AWTUW               bbbabbbddcddddcdddcdddbbbddd
+Sep.SEPIK_HILL.ALAMBLAK     dddddddddddddddddddddddddddd
+Sep.UPPER_SEPIK.ABAU_2      -------cdcd-dbab-bcd-db-b-d-
+
+;
+END;

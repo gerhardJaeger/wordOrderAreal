@@ -1,0 +1,21 @@
+#Nexus
+
+Begin Data;
+Dimensions ntax=11 nchar=28;
+Format Datatype=standard gap=? missing=- symbols="abcd";
+Matrix
+
+Tup.TUPI_GUARANI.KAMAYURA         bbbbbabddddcddddcdddcddcdcdb
+Tup.TUPI_GUARANI.EMERILLON        bbbbbabddddcddddcdddcddcdcdb
+Tup.TUPARI.MEKENS                 bbb-b-bdd-d-dd-d-d-d-d----d-
+Tup.TUPI_GUARANI.KOKAMA           bbbba-bdddc-dddc-ddc-dc-d-b-
+Tup.TUPI_GUARANI.TAPIETE          -------bbbbabdddcdddcddcdcdb
+Tup.TUPI_GUARANI.GUARANI          bbbba-bdddc-dddc-ddc-dc-d-b-
+Tup.TUPI_GUARANI.URUBU_KAAPOR     bbbbb-bdddd-dddd-ddd-dd-d-d-
+Tup.RAMARAMA.KARO_BRAZIL          bbb-b-bdd-d-dd-d-d-d-d----d-
+Tup.TUPI_GUARANI.SIRIONO          bbb-b-bdd-d-dd-d-d-d-d----d-
+Tup.TUPI_GUARANI.KAYABI           b-bbb-b-ddd-d-----dd-dd-d-d-
+Tup.MONDE.GAVIAO_DO_RONDONIA      bbb-b-bdd-d-dd-d-d-d-d----d-
+
+;
+END;

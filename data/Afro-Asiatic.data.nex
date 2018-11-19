@@ -1,0 +1,68 @@
+#Nexus
+
+Begin Data;
+Dimensions ntax=58 nchar=28;
+Format Datatype=standard gap=? missing=- symbols="abcd";
+Matrix
+
+AA.SOUTHERN_CUSHITIC.IRAQW                        aaaababaaababaababababbabcdb
+AA.HIGHLAND_EAST_CUSHITIC.SIDAMO                  dddddddddddddddddddddddddddd
+AA.EAST_CHADIC.KERA                               aaaaaabaaaaabaaaabaaabaababb
+AA.BIU_MANDARA.TERA_PIDLIMDI                      aaaaaabaaaaabaaaabaaabaababb
+AA.LOWLAND_EAST_CUSHITIC.SOMALI                   ---bbab---------------dcdcdb
+AA.WEST_CHADIC.HAUSA                              c-ccccd-aaaab-----aaabaababb
+AA.BIU_MANDARA.HDI                                a-aaaaa-aaaaa-----aaaaaaaaaa
+AA.SEMITIC.HEBREW                                 aaabaabaabaababaabbaabccdabb
+AA.BIU_MANDARA.GUDE                               c-ccccc-aaaaa-----aaaaaaaaaa
+AA.BIU_MANDARA.MUNJUK                             aaaaaabaaaaabaaaabaaabaababb
+AA.WEST_CHADIC.MIYA                               abaaaa-baaaa-cccc-aaa-aa-a--
+AA.BIU_MANDARA.MBARA                              -aaaaab------aaaabaaabaababb
+AA.BIU_MANDARA.WANDALA                            aaaaaabaaaaabaaaabaaabaababb
+AA.WEST_CHADIC.MUPUN                              aaaaaabaaaaabaaaabaaabaababb
+AA.BIU_MANDARA.MARGI                              aaaaaabaaaaabaaaabaaabaababb
+AA.WEST_CHADIC.NGIZIM                             aaaaaabaaaaabaaaabaaabaababb
+AA.BIU_MANDARA.MOFU_GUDUR                         aaaaaabaaaaabaaaabaaabaababb
+AA.BIU_MANDARA.PODOKO                             -------baaaaacccccaaaaaaaaaa
+AA.LOWLAND_EAST_CUSHITIC.AFAR                     dddddddddddddddddddddddddddd
+AA.WEST_CHADIC.DERA                               -------aaaaabaaaabaaabaababb
+AA.BIU_MANDARA.LAMANG_HITKALANCHI                 a-aaaaa-aaaaa-----aaaaaaaaaa
+AA.LOWLAND_EAST_CUSHITIC.EASTERN_OROMO_2          baaababcccdcdaababababbabcdb
+AA.SEMITIC.GETO                                   -cddddd------bbbbbdddddddddd
+AA.SEMITIC.MOROCCAN_ARABIC_2                      ababaaababaaacdcccbaaacccaaa
+AA.BIU_MANDARA.WUZLAM                             aaaaaabaaaaabaaaabaaabaababb
+AA.WEST_CHADIC.ANGAS                              aaaaaabaaaaabaaaabaaabaababb
+AA.BERBER.TAMAZIGHT_CENTRAL_ATLAS_AYT_NDHIR       a-abaaa-abaaa-----baaacccaaa
+AA.SEMITIC.AMHARIC                                -dddddd------ddddddddddddddd
+AA.BIU_MANDARA.BUDUMA                             aaaaaabaaaaabaaaabaaabaababb
+AA.SEMITIC.ARABIC_GULF_SPOKEN                     a-a-aab-a-aab------aab---abb
+AA.SOUTHERN_CUSHITIC.BURUNGE                      --aaaab-----------aaabaababb
+AA.SEMITIC.SYRIAN_ARABIC                          a-a-aa--a-aa-------aa----a--
+AA.BERBER.TARIFIT_GUELAIA                         aaabaabaabaababaabbaabccdabb
+AA.BERBER.TAMASHEQ                                aaabaaaaabaaaabaaabaaacccaaa
+AA.EAST_CHADIC.BIDIYA                             aaaaaabaaaaabaaaabaaabaababb
+AA.SEMITIC.CAIRO_ARABIC                           aaa-aabaa-aaba-aab-aab---abb
+AA.SEMITIC.TIGRE                                  c-cdddd-abbbb-----bbbbdddddd
+AA.EGYPTIAN_COPTIC.COPTIC                         a-abaab-abaab-----baabccdabb
+AA.BEJA.BEJA_2                                    --------d-dcd------dcd---cdb
+AA.WEST_CHADIC.PAANCI                             c-ccccd-aaaab-----aaabaababb
+AA.BIU_MANDARA.LAGWAN                             a-aaa-b-aaa-b-----aa-ba-b-b-
+AA.WEST_CHADIC.PERO                               a-aaaab-aaaab-----aaabaababb
+AA.MASA.MASANA                                    a-aaaab-aaaab-----aaabaababb
+AA.SEMITIC.IRAQ_MUSLIM_BAGHDAD_ARABIC             a-abaab-abaab-----baabccdabb
+AA.SEMITIC.MEHRI                                  a-a-aa--a-aa-------aa----a--
+AA.SEMITIC.CLASSICAL_ARABIC                       ababa-ababa-acdc-cba-ac-c-a-
+AA.WEST_CHADIC.GOEMAI                             aaaaa-baaaa-baaa-baa-ba-b-b-
+AA.CENTRAL_CUSHITIC.KEMANT                        ddd-ddddd-dddd-ddd-ddd---ddd
+AA.BERBER.TAMAHAQ_TAHAGGART                       -------aa-aaaa-aaa-aaa---aaa
+AA.WEST_CHADIC.RON_BOKKOS                         -------------aaaabaaabaababb
+AA.SEMITIC.TIGRIGNA                               cd--d-db--b-b--d-d--------d-
+AA.LOWLAND_EAST_CUSHITIC.DAASANACH                -abab-b------bab-bcd-db-b-d-
+AA.BIU_MANDARA.MADA_CAMEROON                      -aaaa-b------aaa-baa-ba-b-b-
+AA.SEMITIC.ARAMAIC                                abab-a-bab-a-cd-c-b-a--c----
+AA.BERBER.KABYLE_GREATER_KABYLIA_AT_MANGELLAT     a-a-aaa-a-aaa------aaa---aaa
+AA.BIU_MANDARA.GAANDA                             aaa-aa-aa-aa-a-aa--aa----a--
+AA.CENTRAL_CUSHITIC.BILIN                         b-bbb---ddd-------dd--d-----
+AA.LOWLAND_EAST_CUSHITIC.ARBORE_2                 --aabab-----------ababbabcdb
+
+;
+END;

@@ -1,0 +1,16 @@
+#Nexus
+
+Begin Data;
+Dimensions ntax=6 nchar=28;
+Format Datatype=standard gap=? missing=- symbols="abcd";
+Matrix
+
+Chi.TALAMANCA.TERIBE            babababcdcdcdbababcdcdbabcdb
+Chi.GUAYMI.GUAYMI               babab-bcdcd-dbab-bcd-db-b-d-
+Chi.ARUAK.IKA                   b-b-b-b-d-d-d------d-d----d-
+Chi.RAMA.RAMA                   bbbab-bddcd-ddcd-dcd-db-b-d-
+Chi.TALAMANCA.BRIBRI            babab-bcdcd-dbab-bcd-db-b-d-
+Chi.CHIBCHAN_PROPER.CHIBCHA     -bbab-b------dcd-dcd-db-b-d-
+
+;
+END;

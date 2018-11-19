@@ -1,0 +1,32 @@
+#Nexus
+
+Begin Data;
+Dimensions ntax=22 nchar=28;
+Format Datatype=standard gap=? missing=- symbols="abcd";
+Matrix
+
+Aus.PAMA_NYUNGAN.DYIRBAL                    -bbabab------dcdcdcdcdbabcdb
+Aus.PAMA_NYUNGAN.MARTUTHUNIRA               -b-ba-b-------dc-d----c-d-b-
+Aus.PAMA_NYUNGAN.KUKU_UWANH                 baaababcccdcdaababababbabcdb
+Aus.PAMA_NYUNGAN.WANGKA_WIRU                babab-bcdcd-dbab-bcd-db-b-d-
+Aus.PAMA_NYUNGAN.KOKO_YALANDJI              a--bb-b--bb-b---------d-d-d-
+Aus.PAMA_NYUNGAN.ALYAWARRA                  baaababcccdcdaababababbabcdb
+Aus.PAMA_NYUNGAN.YIDINY                     --bab-b-----------cd-db-b-d-
+Aus.PAMA_NYUNGAN.THAYORE                    -aaabab------aababababbabcdb
+Aus.PAMA_NYUNGAN.GAMILARAAY                 -d--d-d--------d-d--------d-
+Aus.PAMA_NYUNGAN.WANGAAYBUWAN_NGIYAMBAA     -------------d-d-d-d-d----d-
+Aus.PAMA_NYUNGAN.NGAANYATJARRA              babab-bcdcd-dbab-bcd-db-b-d-
+Aus.PAMA_NYUNGAN.YINDJIBARNDI               -------------ddc-ddc-dc-d-b-
+Aus.PAMA_NYUNGAN.ARRERNTE_EASTERN           ba-ababc-cdcd-abab----babcdb
+Aus.PAMA_NYUNGAN.DIYARI                     -bbab-b------dcd-dcd-db-b-d-
+Aus.PAMA_NYUNGAN.WIRRI                      -dddccd------ddccddccdccdabb
+Aus.PAMA_NYUNGAN.WIK_MUNGKAN                -abab-b------bab-bcd-db-b-d-
+Aus.PAMA_NYUNGAN.PANYTYIMA                  --------------d--d------d---
+Aus.PAMA_NYUNGAN.DJAMBARRPUYNGU             ----------------c-----------
+Aus.PAMA_NYUNGAN.YANDRUWANDHA               ba-ab-bc-cd-d-ab-b----b-b-d-
+Aus.PAMA_NYUNGAN.GUUGU_YIMIDHIR             -b-ab-b-------cd-d----b-b-d-
+Aus.PAMA_NYUNGAN.BADIMAYA                   -bb-b-b------d-d-d-d-d----d-
+Aus.PAMA_NYUNGAN.WESTERN_ARRERNTE           baaa-a-ccc-c-aa-a-a-a--a----
+
+;
+END;

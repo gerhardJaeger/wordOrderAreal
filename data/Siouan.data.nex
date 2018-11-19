@@ -1,0 +1,17 @@
+#Nexus
+
+Begin Data;
+Dimensions ntax=7 nchar=28;
+Format Datatype=standard gap=? missing=- symbols="abcd";
+Matrix
+
+Sio.SIOUAN.LAKOTA      b--ab-b--cd-d---------b-b-d-
+Sio.SIOUAN.OSAGE       b-b-b-b-d-d-d------d-d----d-
+Sio.SIOUAN.MANDAN      b-bab-b-dcd-d-----cd-db-b-d-
+Sio.SIOUAN.HIDATSA     bab-babcd-dcdb-bab-dcd---cdb
+Sio.SIOUAN.BILOXI      babab-bcdcd-dbab-bcd-db-b-d-
+Sio.SIOUAN.TUTELO      -------cdcd-dbab-bcd-db-b-d-
+Sio.SIOUAN.CROW        -abab-b------bab-bcd-db-b-d-
+
+;
+END;

@@ -1,0 +1,84 @@
+#Nexus
+
+Begin Data;
+Dimensions ntax=74 nchar=28;
+Format Datatype=standard gap=? missing=- symbols="abcd";
+Matrix
+
+ST.JINGHPO.JINGPHO                  bbbabbbddcddddcdddcdddbbbddd
+ST.NUNGISH.RAWANG                   bbbabbbddcddddcdddcdddbbbddd
+ST.BODIC.RGYALTHANG                 bababbbcdcdddbabbbcdddbbbddd
+ST.KAREN.BWE_KAREN                  aabaaababaaabbaaabcccdaababb
+ST.BODIC.KYIRONG                    bbbabbbddcddddcdddcdddbbbddd
+ST.BODO_GARO.GARO                   bbbabbbddcddddcdddcdddbbbddd
+ST.BODIC.TAMANG                     dddcdddddcddddcdddcdddbbbddd
+ST.BODIC.DARMIYA                    ddddd-ddddd-dddd-ddd-dd-d-d-
+ST.MAHAKIRANTI.KHAM                 dddddddddddddddddddddddddddd
+ST.KUKI_CHIN.MEITEI                 -------cdcdddbabbbcdddbbbddd
+ST.NORTHERN_NAGA.NAGA_NOCTE         bbb-bbbdd-dddd-ddd-ddd---ddd
+ST.MAHAKIRANTI.DOLAKHA_NEWAR        ddd-ddddd-dddd-ddd-ddd---ddd
+ST.BURMESE_LOLO.MARU                bbbabbbddcddddcdddcdddbbbddd
+ST.TANI.MISING                      dddcdddddcddddcdddcdddbbbddd
+ST.CHINESE.MANDARIN                 -dddcdd------ddcdddcddcddbbd
+ST.KAREN.KAREN_SGAW                 aabaaababaaabbaaabcccdaababb
+ST.KAREN.KAREN_PWO_EASTERN          aabaaababaaabbaaabcccdaababb
+ST.BURMESE_LOLO.LISU                bababbbcdcdddbabbbcdddbbbddd
+ST.BURMESE_LOLO.LALO                babab-bcdcd-dbab-bcd-db-b-d-
+ST.KAREN.KAYAH_LI_EASTERN           -abaaab------baaabcccdaababb
+ST.BURMESE_LOLO.LAHU_2              -------cdcdddbabbbcdddbbbddd
+ST.KUKI_CHIN.CHIN_HAKA              --------dcd-d-----cd-db-b-d-
+ST.BODIC.CHANTYAL                   dddddddddddddddddddddddddddd
+ST.NORTHERN_NAGA.NAGA_CHANG         -------ddcd-ddcd-dcd-db-b-d-
+ST.KUKI_CHIN.CHIN_SIYIN             -------ddcddddcdddcdddbbbddd
+ST.KUKI_CHIN.LAKHER_MARA            b-bab-b-dcd-d-----cd-db-b-d-
+ST.BURMESE_LOLO.BURMESE             bbbabbbddcddddcdddcdddbbbddd
+ST.KUKI_CHIN.NAGA_AO                babab-bcdcd-dbab-bcd-db-b-d-
+ST.TANI.APATANI                     bbbabbbddcddddcdddcdddbbbddd
+ST.BODIC.BYANSI                     ddddd-ddddd-dddd-ddd-dd-d-d-
+ST.CHINESE.CANTONESE                -dddcdd------ddcdddcddcddbbd
+ST.BURMESE_LOLO.XIANDAO             -------cdcdddbabbbcdddbbbddd
+ST.BAI.JIANCHUAN_BAI_2              -cdccdd------baabbccddabbbbd
+ST.DHIMALIC.DHIMAL                  dddddddddddddddddddddddddddd
+ST.BODIC.TSHANGLA                   dddcdddddcddddcdddcdddbbbddd
+ST.MAHAKIRANTI.THULUNG              dddddddddddddddddddddddddddd
+ST.BURMESE_LOLO.GELANGHE_AKHA       bababbbcdcdddbabbbcdddbbbddd
+ST.BODIC.TIBETAN_CENTRAL            bababbbcdcdddbabbbcdddbbbddd
+ST.KUKI_CHIN.NAGA_CHOKRI            babababcdcdcdbababcdcdbabcdb
+ST.LEPCHA.LEPCHA                    bbbab-bddcd-ddcd-dcd-db-b-d-
+ST.KUKI_CHIN.NAGA_LOTHA             babab-bcdcd-dbab-bcd-db-b-d-
+ST.MAHAKIRANTI.MEWA_KHOLA_LIMBU     -dddddd------ddddddddddddddd
+ST.MAHAKIRANTI.WAMBULE              ddddd-ddddd-dddd-ddd-dd-d-d-
+ST.KUKI_CHIN.NAGA_TANGKHUL          -ababbb------babbbcdddbbbddd
+ST.BURMESE_LOLO.XIDE                babab-bcdcd-dbab-bcd-db-b-d-
+ST.KUKI_CHIN.LUSHAI                 b-bab-b-dcd-d-----cd-db-b-d-
+ST.KUKI_CHIN.KARBI                  -------dd-d-dd-d-d-d-d----d-
+ST.KUKI_CHIN.NAGA_MAO               --babbb-----------cdddbbbddd
+ST.BODIC.MAQU_TIBETAN               --------dcd-d-----cd-db-b-d-
+ST.KUKI_CHIN.HMAR                   b-bab-b-dcd-d-----cd-db-b-d-
+ST.BURMESE_LOLO.DAZHAI_HANI         -------c-cddd-abbb----bbbddd
+ST.BODIC.SHERPA                     bbbab-bddcd-ddcd-dcd-db-b-d-
+ST.MAHAKIRANTI.CHEPANG              -dddddd------ddddddddddddddd
+ST.DIGAROAN.TARAON                  b-babbb-dcddd-----cdddbbbddd
+ST.MAHAKIRANTI.THANGMI              ddddd-ddddd-dddd-ddd-dd-d-d-
+ST.MAHAKIRANTI.DUMI_2               ddd-d-ddd-d-dd-d-d-d-d----d-
+ST.BODO_GARO.DIMASA                 bb-abbbd-cddd-cddd----bbbddd
+ST.NUNGISH.DRUNG                    -------ddcd-ddcd-dcd-db-b-d-
+ST.KUKI_CHIN.CHIN_TEDIM             bbbab-bddcd-ddcd-dcd-db-b-d-
+ST.KUKI_CHIN.NAGA_SUMI              babab-bcdcd-dbab-bcd-db-b-d-
+ST.BODIC.KINNAURI                   ddddd-ddddd-dddd-ddd-dd-d-d-
+ST.BODIC.WESTERN_BALTI              dd-cdddd-cddd-cddd----bbbddd
+ST.BODO_GARO.BODO_INDIA             -ddcddd------dcdddcdddbbbddd
+ST.BODIC.PURIK                      dd-cdddd-cddd-cddd----bbbddd
+ST.BODO_GARO.KOK_BOROK_2            bbbab-bddcd-ddcd-dcd-db-b-d-
+ST.MAHAKIRANTI.KHALING              -dddddd------ddddddddddddddd
+ST.BODIC.THAKALI                    -ddcd-d------dcd-dcd-db-b-d-
+ST.KUKI_CHIN.NAGA_ZEME              bb-ab-bd-cd-d-cd-d----b-b-d-
+ST.QIANGIC.MAWO_QIANG               baba-b-cdc-d-ba-b-c-d--b----
+ST.MAHAKIRANTI.CAMLING              -------------ddddddddddddddd
+ST.DIGAROAN.IDU_MISHMI              dd-cd-dd-cd-d-cd-d----b-b-d-
+ST.BODO_GARO.KACHARI                -------d-cd-d-cd-d----b-b-d-
+ST.NUNGISH.ANONG                    -abab-b------bab-bcd-db-b-d-
+ST.BODIC.LOWA                       -b-abbb-------cddd----bbbddd
+
+;
+END;

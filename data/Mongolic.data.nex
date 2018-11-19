@@ -1,0 +1,17 @@
+#Nexus
+
+Begin Data;
+Dimensions ntax=7 nchar=28;
+Format Datatype=standard gap=? missing=- symbols="abcd";
+Matrix
+
+Alt.MONGOLIC.MONGOLIAN            dddddddddddddddddddddddddddd
+Alt.MONGOLIC.MONGUOR              dddddddddddddddddddddddddddd
+Alt.MONGOLIC.TACHENG_DAGUR        dddddddddddddddddddddddddddd
+Alt.MONGOLIC.KHAMNIGAN_MONGOL     ababaaababaaacdcccbaaacccaaa
+Alt.MONGOLIC.BURIAT_MONGOLIA      ddddd-ddddd-dddd-ddd-dd-d-d-
+Alt.MONGOLIC.SANTA_MONGOLIAN      d-ddd-d-ddd-d-----dd-dd-d-d-
+Alt.MONGOLIC.KALMYK               d-d-ddd-d-ddd------ddd---ddd
+
+;
+END;

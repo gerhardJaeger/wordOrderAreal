@@ -1,0 +1,65 @@
+#Nexus
+
+Begin Data;
+Dimensions ntax=55 nchar=28;
+Format Datatype=standard gap=? missing=- symbols="abcd";
+Matrix
+
+NC.BANTOID.SHONA                    aaaaaabaaaaabaaaabaaabaababb
+NC.BANTOID.RUNYANKORE_RUKIGA        aaaaaabaaaaabaaaabaaabaababb
+NC.BANTOID.A72a_EWONDO              aaaaaabaaaaabaaaabaaabaababb
+NC.BANTOID.SWAHILI                  aaaaaabaaaaabaaaabaaabaababb
+NC.BANTOID.LOMONGO                  aaaaaabaaaaabaaaabaaabaababb
+NC.BANTOID.NONI                     -aaaaab------aaaabaaabaababb
+NC.BANTOID.NKORE_KIGA               aaaaaabaaaaabaaaabaaabaababb
+NC.BANTOID.NDONGA_2                 aaaaaabaaaaabaaaabaaabaababb
+NC.BANTOID.CHINGONI                 aaaaaabaaaaabaaaabaaabaababb
+NC.BANTOID.KWANGALI_2               aaaaaabaaaaabaaaabaaabaababb
+NC.BANTOID.PARE_TANZANIA            abaaaabbaaaabccccdaaabaababb
+NC.BANTOID.K14_LWENA_2              aaaaaabaaaaabaaaabaaabaababb
+NC.BANTOID.LUNDA_1                  a-aaaab-aaaab-----aaabaababb
+NC.BANTOID.CEWA                     aaaaaabaaaaabaaaabaaabaababb
+NC.BANTOID.XHOSA_2                  a-aaaab-aaaab-----aaabaababb
+NC.BANTOID.LUGANDA                  aaaa-abaaa-abaa-aba-ab-ab--b
+NC.BANTOID.VALANGI                  aaaaa-baaaa-baaa-baa-ba-b-b-
+NC.BANTOID.BASAA                    aaaaa-baaaa-baaa-baa-ba-b-b-
+NC.BANTOID.BABUNGO                  aa-aaaba-aaab-aaab----aababb
+NC.BANTOID.BATANGA_BALUNDU          aaaaa-baaaa-baaa-baa-ba-b-b-
+NC.BANTOID.NDUMU_2                  aaaaa-baaaa-baaa-baa-ba-b-b-
+NC.BANTOID.ZULU_2                   a-a-aab-a-aab------aab---abb
+NC.BANTOID.IWUM_WUUMBU_2            aaaaa-baaaa-baaa-baa-ba-b-b-
+NC.BANTOID.M64_TONGA_2              -aaaaab------aaaabaaabaababb
+NC.BANTOID.HAYA                     aa-aaaba-aaab-aaab----aababb
+NC.BANTOID.HUNDE                    -aaaaab------aaaabaaabaababb
+NC.BANTOID.SOTHO_SUD                aaa-aabaa-aaba-aab-aab---abb
+NC.BANTOID.ISANGU                   -aaaaab------aaaabaaabaababb
+NC.BANTOID.L21_KETE_IPILA           aa-aaaba-aaab-aaab----aababb
+NC.BANTOID.ILA                      aaa-aabaa-aaba-aab-aab---abb
+NC.BANTOID.KITABWA                  a-aaa-b-aaa-b-----aa-ba-b-b-
+NC.BANTOID.PHUTI                    -------------c-cc--aa----a--
+NC.BANTOID.RONGA                    aaa-a-baa-a-ba-a-b-a-b----b-
+NC.BANTOID.BAKUERI                  -baaaab------ccccdaaabaababb
+NC.BANTOID.KOONGO                   aaaaa-baaaa-baaa-baa-ba-b-b-
+NC.BANTOID.GIKUYU_2                 aaa-aabaa-aaba-aab-aab---abb
+NC.BANTOID.TWUMWU                   -aaa--b------aa--ba--b--b---
+NC.BANTOID.KINYAMWEZI               -aaaa--------aaa--aa--a-----
+NC.BANTOID.TETELA                   -------aaaa-baaa-baa-ba-b-b-
+NC.BANTOID.TIV_2                    -------aa-a-ba-a-b-a-b----b-
+NC.BANTOID.C831_ILEBO               aa--aaba--aab--aab-------abb
+NC.BANTOID.NGELEMA_2                aa-aa-ba-aa-b-aa-b----a-b-b-
+NC.BANTOID.L32_KANYOK_1             aaaa-a-aaa-a-aa-a-a-a--a----
+NC.BANTOID.MBOSHI_NGOLO             -aaaa-b------aaa-baa-ba-b-b-
+NC.BANTOID.G65_KINGA                a-aaa-b-aaa-b-----aa-ba-b-b-
+NC.BANTOID.KONGO_SAN_SALVADOR_2     aa--a-ba--a-b--a-b--------b-
+NC.BANTOID.KINYARWANDA              ab-aa-bb-aa-b-cc-d----a-b-b-
+NC.BANTOID.D28_HOLOHOLO             ---aaab---------------aababb
+NC.BANTOID.HEMBA_BWINYANYEMBA       aa-aa-ba-aa-b-aa-b----a-b-b-
+NC.BANTOID.OYUOMI_TCHERRE           aa-aa-ba-aa-b-aa-b----a-b-b-
+NC.BANTOID.KAGULU                   aa-aaa-a-aaa--aaa-----aa-a--
+NC.BANTOID.AGHEM_ISU                -aaaa-b------aaa-baa-ba-b-b-
+NC.BANTOID.BAFIA_ROPE               aaaa-a-aaa-a-aa-a-a-a--a----
+NC.BANTOID.DZEKE_DIBOLE             a--aaab--aaab---------aababb
+NC.BANTOID.MWERA                    --aaa-b-----------aa-ba-b-b-
+
+;
+END;

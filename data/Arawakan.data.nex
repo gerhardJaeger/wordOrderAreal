@@ -1,0 +1,23 @@
+#Nexus
+
+Begin Data;
+Dimensions ntax=13 nchar=28;
+Format Datatype=standard gap=? missing=- symbols="abcd";
+Matrix
+
+Arw.NORTHERN_ARAWAKAN.RESIGARO                    ddddd-ddddd-dddd-ddd-dd-d-d-
+Arw.NORTHERN_ARAWAKAN.TARIANA                     -------ddddcddddcdddcddcdcdb
+Arw.NORTHERN_ARAWAKAN.GARIFUNA                    aaabaaaaabaaaabaaabaaacccaaa
+Arw.PURUS.APURINA                                 bbbb-abddd-cddd-cdd-cd-cd--b
+Arw.NORTHERN_ARAWAKAN.LOKONO                      ddddc--dddc--ddc--dc--c-----
+Arw.BOLIVIA_PARANA.BAURE                          -babaaa------cdcccbaaacccaaa
+Arw.EASTERN_ARAWAKAN.PALIKUR                      abbba-bbbba-bddc-ddc-dc-d-b-
+Arw.NORTHERN_ARAWAKAN.BARE                        bbbba--dddc--ddc--dc--c-----
+Arw.NORTHERN_ARAWAKAN.WAREKENA                    ababa-bbaba-bcdc-dba-bc-d-b-
+Arw.NORTHERN_ARAWAKAN.WAYUU                       aaaba-aaaba-aaba-aba-ac-c-a-
+Arw.NORTHERN_ARAWAKAN.YUCUNA                      ddd-c-ddd-c-dd-c-d-c-d----b-
+Arw.PRE_ANDINE_ARAWAKAN.AJYININKA_APURUCAYALI     --b-aa-------------cc----a--
+Arw.NORTHERN_ARAWAKAN.ACHAGUA                     b-b-aab-d-ccd------ccd---abb
+
+;
+END;

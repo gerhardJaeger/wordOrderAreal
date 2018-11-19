@@ -1,0 +1,18 @@
+#Nexus
+
+Begin Data;
+Dimensions ntax=8 nchar=28;
+Format Datatype=standard gap=? missing=- symbols="abcd";
+Matrix
+
+NDe.ATHAPASKAN.HUPA_2        bbbb-a-ddd-c-dd-c-d-c--c----
+NDe.ATHAPASKAN.SLAVEY        bbbab-bddcd-ddcd-dcd-db-b-d-
+NDe.ATHAPASKAN.SARCEE        bbbbbabddddcddddcdddcddcdcdb
+NDe.ATHAPASKAN.NAVAJO        bbbbb-bdddd-dddd-ddd-dd-d-d-
+NDe.TLINGIT.TLINGIT          -------ddddddddddddddddddddd
+NDe.ATHAPASKAN.KOYUKON       bbb-b-bdd-d-dd-d-d-d-d----d-
+NDe.ATHAPASKAN.TANACROSS     bbb-b-bdd-d-dd-d-d-d-d----d-
+NDe.ATHAPASKAN.CHIPEWYAN     -------d-ddcd-ddcd----dcdcdb
+
+;
+END;

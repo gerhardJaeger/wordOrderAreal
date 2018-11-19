@@ -1,0 +1,24 @@
+#Nexus
+
+Begin Data;
+Dimensions ntax=14 nchar=28;
+Format Datatype=standard gap=? missing=- symbols="abcd";
+Matrix
+
+ESu.NILOTIC.TESO                   aaaaaaaaaaaaaaaaaaaaaaaaaaaa
+ESu.NILOTIC.KARIMOJONG             aaaaaaaaaaaaaaaaaaaaaaaaaaaa
+ESu.NILOTIC.NUER                   aaaa-abaaa-abaa-aba-ab-ab--b
+ESu.NILOTIC.POKOT                  a-aaaaa-aaaaa-----aaaaaaaaaa
+ESu.NILOTIC.MAASAI                 abaaaaabaaaaacccccaaaaaaaaaa
+ESu.NILOTIC.LUO                    aaaaaabaaaaabaaaabaaabaababb
+ESu.NILOTIC.LANGO                  aaaaaabaaaaabaaaabaaabaababb
+ESu.NILOTIC.TURKANA                aaaaaaaaaaaaaaaaaaaaaaaaaaaa
+ESu.NILOTIC.ANYUAK                 a-aa-a--aa-a------a-a--a----
+ESu.NILOTIC.DINKA_NORTHEASTERN     --aa-ab-----------a-ab-ab--b
+ESu.NILOTIC.NGYEPU                 abaaaabbaaaabccccdaaabaababb
+ESu.NILOTIC.PARI                   a-aabab-aabab-----ababbabcdb
+ESu.NILOTIC.ACHOLI                 a-aaaab-aaaab-----aaabaababb
+ESu.NILOTIC.SHILLUK                a-aaa-b-aaa-b-----aa-ba-b-b-
+
+;
+END;

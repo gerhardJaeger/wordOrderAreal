@@ -1,0 +1,33 @@
+#Nexus
+
+Begin Data;
+Dimensions ntax=23 nchar=28;
+Format Datatype=standard gap=? missing=- symbols="abcd";
+Matrix
+
+UA.AZTECAN.NAHUATL_POMARO_AQUILA                      ab-baaab-baaa-dccc----cccaaa
+UA.AZTECAN.TETELCINGO_NAHUATL                         ababaa-babaa-cdcc-baa-cc-a--
+UA.AZTECAN.NAHUATL_BUENOS_AIRES_ALAMO                 ababaaababaaacdcccbaaacccaaa
+UA.NUMIC.NORTHERN_PAIUTE_BANNOCK                      -ddddcd------dddcdddcddcdcdb
+UA.TAKIC.LUISENO                                      bbbb-abddd-cddd-cdd-cd-cd--b
+UA.TEPIMAN.TOHONO_OODHAM                              -d-dccc-------dccc----cccaaa
+UA.TEPIMAN.NORTHERN_TEPEHUAN                          -------dddcccddcccdccccccaaa
+UA.NUMIC.COMANCHE                                     dddddcdddddcddddcdddcddcdcdb
+UA.NUMIC.UTE_2                                        --------dd-cd-----d-cd-cd--b
+UA.CAHITA.YAQUI_2                                     dddddcdddddcddddcdddcddcdcdb
+UA.NUMIC.PANAMINT                                     --ddd-d-----------dd-dd-d-d-
+UA.CORACHOL.EL_NAYAR_CORA                             bb-baaad-dccc-dccc----cccaaa
+UA.AZTECAN.PIPIL                                      c-cdccc-abaaa-----baaacccaaa
+UA.TEPIMAN.PIMA_BAJO                                  -ddddcd------dddcdddcddcdcdb
+UA.NUMIC.KAWAIISU                                     d----c-----c----------------
+UA.HOPI.HOPI                                          ddddd-ddddd-dddd-ddd-dd-d-d-
+UA.TARAHUMARAN.WARIHIO                                -------ddc---dc---c---------
+UA.TAKIC.CUPENO                                       bbbbb-bdddd-dddd-ddd-dd-d-d-
+UA.TARAHUMARAN.CENTRAL_TARAHUMARA                     dd--dcdd--dcd--dcd-------cdb
+UA.AZTECAN.NAHUATL_DEL_NORTE_DEL_ESTADO_DE_PUEBLA     --------------dc-d----c-d-b-
+UA.CAHITA.EUDEVE                                      -------dd-dcdd-dcd-dcd---cdb
+UA.TAKIC.CAHUILLA                                     d-d-dcd-d-dcd------dcd---cdb
+UA.NUMIC.WESTERN_MONO                                 --------d-dcd------dcd---cdb
+
+;
+END;

@@ -1,0 +1,18 @@
+#Nexus
+
+Begin Data;
+Dimensions ntax=8 nchar=28;
+Format Datatype=standard gap=? missing=- symbols="abcd";
+Matrix
+
+Ura.UGRIC.HUNGARIAN        ddddc-ddddc-dddc-ddc-dc-d-b-
+Ura.FINNIC.FINNISH         ddddccddddccdddccddccdccdabb
+Ura.UGRIC.MANSI            dddddddddddddddddddddddddddd
+Ura.UGRIC.KHANTY           dddddddddddddddddddddddddddd
+Ura.SAMOYEDIC.NENETS       ddddd-ddddd-dddd-ddd-dd-d-d-
+Ura.PERMIC.UDMURT          ddddd-ddddd-dddd-ddd-dd-d-d-
+Ura.SAMOYEDIC.SELKUP       -dddd-d------ddd-ddd-dd-d-d-
+Ura.PERMIC.KOMI_ZYRIAN     d-ddc-d-ddc-d-----dc-dc-d-b-
+
+;
+END;

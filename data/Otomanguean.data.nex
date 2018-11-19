@@ -1,0 +1,27 @@
+#Nexus
+
+Begin Data;
+Dimensions ntax=17 nchar=28;
+Format Datatype=standard gap=? missing=- symbols="abcd";
+Matrix
+
+OM.MIXTECAN.MIXTECO_DE_YOSONDUA                aaabaaaaabaaaabaaabaaacccaaa
+OM.MIXTECAN.CHALCATONGO_MIXTEC                 aaabaaaaabaaaabaaabaaacccaaa
+OM.OTOMIAN.OTOMI_MEZQUITAL                     cdcdcccbabaaacdcccbaaacccaaa
+OM.MIXTECAN.MIXTEC_PENYOLES                    a-abaaa-abaaa-----baaacccaaa
+OM.CHINANTECAN.CHINANTEC_QUIOTEPEC             a-abaaa-abaaa-----baaacccaaa
+OM.CHINANTECAN.CHINANTEC_COMALTEPEC            aaabaaaaabaaaabaaabaaacccaaa
+OM.MIXTECAN.TRIQUI_COPALA                      aaabaaaaabaaaabaaabaaacccaaa
+OM.CHINANTECAN.LEALAO_CHINANTEC                aaabaaaaabaaaabaaabaaacccaaa
+OM.ZAPOTECAN.CHATINO_WESTERN_HIGHLAND          aaabaaaaabaaaabaaabaaacccaaa
+OM.ZAPOTECAN.ISTHMUS_ZAPOTEC                   aaabaaaaabaaaabaaabaaacccaaa
+OM.CHINANTECAN.CHINANTEC_PALANTLA              aaabaaaaabaaaabaaabaaacccaaa
+OM.SUBTIABA_TLAPANEC.TLAPANEC_MALINALTEPEC     aaabaaaaabaaaabaaabaaacccaaa
+OM.ZAPOTECAN.ZAPOTEC_MITLA                     aaaba-aaaba-aaba-aba-ac-c-a-
+OM.ZAPOTECAN.ZAPOTEC_YATZACHI                  aaaba-aaaba-aaba-aba-ac-c-a-
+OM.OTOMIAN.OCUILTECO                           cd-dc-db-ba-b-dc-d----c-d-b-
+OM.ZAPOTECAN.ZAPOTEC_ZOOGOCHO                  -a-baaa-------baaa----cccaaa
+OM.MIXTECAN.JICALTEPEC_MIXTEC                  aa-ba-aa-ba-a-ba-a----c-c-a-
+
+;
+END;

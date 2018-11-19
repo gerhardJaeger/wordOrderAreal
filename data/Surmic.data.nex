@@ -1,0 +1,18 @@
+#Nexus
+
+Begin Data;
+Dimensions ntax=8 nchar=28;
+Format Datatype=standard gap=? missing=- symbols="abcd";
+Matrix
+
+ESu.SURMIC.TENNET        -aaaaaa------aaaaaaaaaaaaaaa
+ESu.SURMIC.MESENGO       dccccccccccccaaaaaaaaaaaaaaa
+ESu.SURMIC.MURLE         -aaaaaa------aaaaaaaaaaaaaaa
+ESu.SURMIC.KWEGU         aaaaaabaaaaabaaaabaaabaababb
+ESu.SURMIC.DIDINGA       aaaaaaaaaaaaaaaaaaaaaaaaaaaa
+ESu.SURMIC.MURSI         --aaaab-----------aaabaababb
+ESu.SURMIC.MEEN          --aaaab-----------aaabaababb
+ESu.SURMIC.SURI_CHAI     b-aa--b-cc--d-----a--b--b---
+
+;
+END;

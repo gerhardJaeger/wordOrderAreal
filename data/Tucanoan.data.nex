@@ -1,0 +1,17 @@
+#Nexus
+
+Begin Data;
+Dimensions ntax=7 nchar=28;
+Format Datatype=standard gap=? missing=- symbols="abcd";
+Matrix
+
+Tuc.TUCANOAN.TANIMUCA      ddddd-ddddd-dddd-ddd-dd-d-d-
+Tuc.TUCANOAN.BARASANO      -------ddddc-dddc-ddc-dc-c--
+Tuc.TUCANOAN.DESANO        ddd-dcddd-dcdd-dcd-dcd---cdb
+Tuc.TUCANOAN.CUBEO         d-dddcc-dddcc-----ddccdcccca
+Tuc.TUCANOAN.KOREGUAYE     b-baaaa-dcccc-----ccccaaaaaa
+Tuc.TUCANOAN.TUCANO        -------d-dddd-dddd----dddddd
+Tuc.TUCANOAN.SIONA         -dddd-d------ddd-ddd-dd-d-d-
+
+;
+END;

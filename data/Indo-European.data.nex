@@ -1,0 +1,69 @@
+#Nexus
+
+Begin Data;
+Dimensions ntax=59 nchar=28;
+Format Datatype=standard gap=? missing=- symbols="abcd";
+Matrix
+
+IE.CELTIC.IRISH_GAELIC             aaabaaaaabaaaabaaabaaacccaaa
+IE.ROMANCE.ITALIAN                 ababaa-babaa-cdcc-baa-cc-a--
+IE.GERMANIC.ICELANDIC              cdcdccdbabaabcdccdbaabccdabb
+IE.ROMANCE.ROMANIAN_2              a-abaab-abaab-----baabccdabb
+IE.INDIC.KASHMIRI                  ddddc-ddddc-dddc-ddc-dc-d-b-
+IE.INDIC.WELSH_ROMANI              cdddcc-bbbaa-ddcc-dcc-cc-a--
+IE.SLAVIC.RUSSIAN                  cdcdccdbabaabcdccdbaabccdabb
+IE.ROMANCE.FRENCH                  ababaabbabaabcdccdbaabccdabb
+IE.CELTIC.GAELIC_SCOTTISH          aaabaaaaabaaaabaaabaaacccaaa
+IE.GERMANIC.DANISH                 cdddccdbbbaabddccddccdccdabb
+IE.GERMANIC.BRABANTIC              cdcd-cdbab-abcd-cdb-ab-cd--b
+IE.GERMANIC.ENGLISH                cd-dccdb-baab-dccd----ccdabb
+IE.IRANIAN.TAJIK                   ababbabbabbabcddcdbbabdcdcdb
+IE.ROMANCE.SPANISH                 ababaa-babaa-cdcc-baa-cc-a--
+IE.INDIC.HINDI                     ddddd-ddddd-dddd-ddd-dd-d-d-
+IE.GERMANIC.STANDARD_GERMAN        cdcd-cdbab-abcd-cdb-ab-cd--b
+IE.GERMANIC.JAMTLANDIC             cdddccdbbbaabddccddccdccdabb
+IE.GREEK.GREEK                     cdcdcc-babaa-cdcc-baa-cc-a--
+IE.INDIC.MARATHI                   dddddddddddddddddddddddddddd
+IE.IRANIAN.KURDISH_KURMANJI        a-abbab-abbab-----bbabdcdcdb
+IE.SLAVIC.POLISH                   cdcdcc-babaa-cdcc-baa-cc-a--
+IE.IRANIAN.PERSIAN                 ababbabbabbabcddcdbbabdcdcdb
+IE.IRANIAN.LAKKI_MARWAT_PASHTO     dddddcdddddcddddcdddcddcdcdb
+IE.BALTIC.LITHUANIAN               cdddccdbbbaabddccddccdccdabb
+IE.INDIC.LAMANI                    dddddddddddddddddddddddddddd
+IE.INDIC.PUNJABI_MAJHI             ddddd-ddddd-dddd-ddd-dd-d-d-
+IE.INDIC.URDU                      ddddd-ddddd-dddd-ddd-dd-d-d-
+IE.ARMENIAN.EASTERN_ARMENIAN       dddd--dddd--ddd--dd--d--d---
+IE.SLAVIC.BULGARIAN                cd-dcc-b-baa--dcc-----cc-a--
+IE.CELTIC.BRETON                   aaabaaaaabaaaabaaabaaacccaaa
+IE.IRANIAN.ISHKOMAN_WAKHI          -ddddcd------dddcdddcddcdcdb
+IE.SLAVIC.CZECH                    cd-dccdb-baab-dccd----ccdabb
+IE.CELTIC.WELSH                    aaabaaaaabaaaabaaabaaacccaaa
+IE.INDIC.NAWAR_ZUTT                cdddcccbbbaaaddcccdccccccaaa
+IE.CELTIC.CORNISH                  aaabaabaabaababaabbaabccdabb
+IE.ALBANIAN.ALBANIAN_GHEG          ababaabbabaabcdccdbaabccdabb
+IE.ROMANCE.CATALAN                 ababaa-babaa-cdcc-baa-cc-a--
+IE.INDIC.KUMAUNI                   ddddd-ddddd-dddd-ddd-dd-d-d-
+IE.IRANIAN.DIGOR_OSSETIAN          ddddd-ddddd-dddd-ddd-dd-d-d-
+IE.INDIC.MAITHILI                  dd-dd-dd-dd-d-dd-d----d-d-d-
+IE.SLAVIC.SLOVENIAN                cd-dc-db-ba-b-dc-d----c-d-b-
+IE.INDIC.SHINA_2                   ddddd-ddddd-dddd-ddd-dd-d-d-
+IE.INDIC.TORWALI                   ddddd-ddddd-dddd-ddd-dd-d-d-
+IE.GERMANIC.EASTERN_FRISIAN        cd---cdb---ab---cd---------b
+IE.IRANIAN.TALYSH                  dddddc-ddddc-dddc-ddc-dc-c--
+IE.SLAVIC.UKRAINIAN                cd-dccdb-baab-dccd----ccdabb
+IE.ROMANCE.PORTUGUESE              aba-aabba-aabc-ccd-aab---abb
+IE.INDIC.BHOIPURI                  ddddd-ddddd-dddd-ddd-dd-d-d-
+IE.IRANIAN.VAFSI                   -babba-------cddc-bba-dc-c--
+IE.SLAVIC.CROATIAN                 cd-dc-db-ba-b-dc-d----c-d-b-
+IE.ROMANCE.ROMANSH_GRISHUN         -babaab------cdccdbaabccdabb
+IE.INDIC.SAVI                      ddd-d-ddd-d-dd-d-d-d-d----d-
+IE.INDIC.SINHALA                   d---dcd---dcd------------cdb
+IE.SLAVIC.MACEDONIAN               cd--c-db--a-b--c-d--------b-
+IE.INDIC.ODIR_KHOWAR               d-d-ddd-d-ddd------ddd---ddd
+IE.INDIC.GUJARATI                  dd-dd-dd-dd-d-dd-d----d-d-d-
+IE.INDIC.ASSAMESE                  -dd-d-d------d-d-d-d-d----d-
+IE.INDIC.BROKSKAT                  -dddd-d------ddd-ddd-dd-d-d-
+IE.SLAVIC.BELARUSIAN               -dc--c-------c--c---a-------
+
+;
+END;
