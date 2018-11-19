@@ -1,0 +1,9 @@
+.Rhistory
+*~
+*.pyc
+history.txt
+#*
+**/auto
+.ipynb_checkpoints/*
+.ipynb_checkpoints
+.juliahistory
