@@ -1,0 +1,125 @@
+# This is a template, not a stand-alone script
+# The variable "char" has to be set to a value between 1-28 before it can be run.
+
+for (char in 1:28){
+seed(12345)
+counter1 = 0
+
+families = readDataDelimitedFile("../areas.tsv")[1] 
+conti = readDataDelimitedFile("../areas.tsv")[2]
+continents = readDataDelimitedFile("../continents.tsv")[1]
+
+
+for (fam in families) {
+    treePosterior[++counter1] = readTrees("../trees/"+fam+".posterior.tree")
+}
+
+
+mni = 0
+mvi = 0
+
+
+for (i in 1:families.size()) {
+    trees[i] ~ dnEmpiricalTree(treeTrace(treePosterior[i],0))
+    moves[++mvi] = mvEmpiricalTree(trees[i],metropolisHastings=FALSE)
+    }
+
+counter1 = 0
+for (fam in families) {
+    ddata[++counter1] = readDiscreteCharacterData("../data/"+fam+".data.nex")
+}
+
+for (ci in 1:continents.size()) {
+
+dependent[ci] ~ dnReversibleJumpMixture(0,dnMixture(v(1),simplex(v(1))),.5)
+moves[++mvi] = mvRJSwitch(dependent[ci],weight=1)
+
+
+alpha ~ dnGamma(1,1)
+moves[++mvi] = mvSlide(alpha,tune=FALSE)
+beta ~ dnGamma(4,2)
+moves[++mvi] = mvSlide(beta,tune=FALSE)
+
+
+  for (i in 1:4) {
+     erI[ci][i] ~ dnGamma(alpha,beta)
+     moves[++mvi] = mvScale(erI[ci][i],lambda = 10, tune=FALSE)
+  }
+
+
+  for (i in 1:8) {
+     er[ci][i] ~ dnGamma(alpha,beta)
+     moves[++mvi] = mvScale(er[ci][i],lambda = 10,tune=FALSE)
+  }
+
+
+  for (i in 1:4) {
+     for (j in 1:4) {
+       q[ci][i][j] := 0.0
+  }
+  }
+
+
+  q[ci][1][2] := ifelse(dependent[ci]==0,erI[ci][1],er[ci][1]) #ab
+  q[ci][1][3] := ifelse(dependent[ci]==0,erI[ci][2],er[ci][2]) #ac
+  q[ci][2][1] := ifelse(dependent[ci]==0,erI[ci][3],er[ci][3]) #ba
+  q[ci][2][4] := ifelse(dependent[ci]==0,erI[ci][2],er[ci][4]) #bd
+  q[ci][3][1] := ifelse(dependent[ci]==0,erI[ci][4],er[ci][5]) #ca
+  q[ci][3][4] := ifelse(dependent[ci]==0,erI[ci][1],er[ci][6]) #cd
+  q[ci][4][2] := ifelse(dependent[ci]==0,erI[ci][4],er[ci][7]) #db
+  q[ci][4][3] := ifelse(dependent[ci]==0,erI[ci][3],er[ci][8]) #dc
+
+  Q[ci] := fnFreeK(q[ci],rescale=FALSE)
+}
+
+  #char replaced by 1
+  for (fmI in 1:families.size()) {
+     ci = continents.find(conti[fmI])
+     ddata[fmI].excludeAll()
+     ddata[fmI].includeCharacter(char)
+     phyloseq[fmI] ~ dnPhyloCTMC(tree=trees[fmI],Q=Q[ci],type="Standard")
+     phyloseq[fmI].clamp(ddata[fmI])
+}
+
+
+
+mymodel = model(Q[ci])
+
+#char replaced by 1
+monitors[++mni] = mnModel(filename="output/areal"+char+".log",printgen=10)
+
+monitors[++mni] = mnScreen(printgen=10)
+monitors[mni].addVariable(dependent[ci])
+
+
+
+mymcmc = mcmcmc(mymodel, monitors, moves, nruns=4, nchains=4)
+
+
+#mymcmc.burnin(generations=100,tuningInterval=10)
+
+#mymcmc.run(generations=10000)
+mymcmc.operatorSummary()
+
+
+
+#char replaced by 1
+pow_p = powerPosterior(mymodel, moves, monitors, "output/areal"+char+".out", cats=50)
+
+pow_p.burnin(generations=1000,tuningInterval=1000)
+
+pow_p.run(generations=1000)
+
+#char replaced by 1
+ss = steppingStoneSampler(file="output/areal"+char+".out", powerColumnName="power",
+                          likelihoodColumnName="likelihood")
+
+ss.marginal()
+
+#char replaced by 1
+write(ss.marginal(),filename="output/area"+char+"_marginal.txt")
+}
+
+q()
+
+
